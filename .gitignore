@@ -1,0 +1,41 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Type Checking
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Streamlit Configuration & Secrets
+.streamlit/secrets.toml
+
+# Editor & IDE Directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backups & Local Developer Scratch
+*.bak
+_review_before_removal/
+scratch/
+archive/
+
+# Logs & Temporary Files
+*.log
+*.tmp
